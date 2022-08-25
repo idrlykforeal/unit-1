@@ -11,4 +11,4 @@ a variable is a value that can change, depending on conditions or on information
   dictionary
   
 3. four types of cts:
-  nominal, ordinal, discrete, and Continuous
+  decomposition, pattern recognition abstraction, algorithmic thinking
