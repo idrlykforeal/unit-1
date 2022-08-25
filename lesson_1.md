@@ -12,3 +12,6 @@ a variable is a value that can change, depending on conditions or on information
   
 ## 3. four types of cts:
   decomposition, pattern recognition abstraction, algorithmic thinking
+ 
+ ## 4. this is the diagram i drew of the computer structure:
+ ![](computerstructure.jpeg)
