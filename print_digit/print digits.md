@@ -4,8 +4,8 @@ Given an integer number, print its last digit.
 
 ```.py
 # Read an integer:
-a = int(input())
-print(a%10)
+a = int(input("input an integer: "))
+print("the last digit of the number you inputted is:", a%10)
 ``` 
 
 ![](print_last_digit.png)
@@ -18,11 +18,10 @@ Given an integer. Print its tens digit.
 
 ```.py
 # Read an integer:
-number = int(input())
-
+number = int(input("input an integer: "))
 number = number//10 # integer division
-answer = number%10 
-print(answer)
+answer = number%10
+print("the tenth digit of the number you inputted is:", answer)
 ```
 
 ![](print_tenth_digit.png)
