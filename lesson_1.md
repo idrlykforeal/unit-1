@@ -1,4 +1,3 @@
-# unit-1 repo
 ## 1. What are variables in computer programming?
 a variable is a value that can change, depending on conditions or on information passed to the program.
 
