@@ -1,5 +1,6 @@
-Tax calculator
+# Tax calculator
 
+## Python Code
 ```.py
 #tax calculator
 salary=int(input("please input your salary in dollars: "))
@@ -19,3 +20,7 @@ else:
 print(f'the tax you need to pay is {taxed} dollars.')
 
 ```
+
+## Result
+![](tax.png)
+*figure 1* This is a screenshot of one test result
