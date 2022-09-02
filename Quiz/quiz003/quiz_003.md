@@ -17,5 +17,8 @@ for i in in_protein.upper():
 
 print(out_protein)
 ```
-## output
+## result
 
+![](quiz003.png)
+
+*figure 1* shows one result of the program
