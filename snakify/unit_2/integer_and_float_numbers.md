@@ -8,7 +8,9 @@ print(a%10)
 
 ## Tests
 
-![](.png)
+![](2_1_1.png)
+![](2_1_2.png)
+![](2_1_3.png)
 
 # Two digits
 
@@ -21,7 +23,9 @@ print(first,a%10)
 
 ## Tests
 
-![](.png)
+![](2_2_1.png)
+![](2_2_2.png)
+![](2_2_3.png)
 
 # Swap digits
 
@@ -35,7 +39,8 @@ print(str(one)+str(tenth))
 
 ## Tests
 
-![](.png)
+![](2_3_1.png)
+![](2_3_2.png)
 
 # Last two digits
 
@@ -47,7 +52,8 @@ print(a%100)
 
 ## Tests
 
-![](.png)
+![](2_4_1.png)
+![](2_4_2.png)
 
 # Tens digit
 
@@ -60,7 +66,9 @@ print(tenth)
 
 ## Tests
 
-![](.png)
+![](2_5_1.png)
+![](2_5_2.png)
+![](2_5_3.png)
 
 # Sum of digits
 
@@ -76,7 +84,7 @@ print(hundreds+tenth+one)
 
 ## Tests
 
-![](.png)
+![](2_6.png)
 
 # Reverse three digits
 
@@ -92,7 +100,8 @@ print(str(one)+str(tenth)+str(hundreds))
 
 ## Tests
 
-![](.png)
+![](2_7_1.png)
+![](2_7_2.png)
 
 # Merge two numbers
 
@@ -111,7 +120,8 @@ print (a1+b1+a2+b2)
 
 ## Tests
 
-![](.png)
+![](2_8_1.png)
+![](2_8_2.png)
 
 # Cyclic rotation
 
@@ -126,7 +136,8 @@ print(str(a2)+str(a1))
 
 ## Tests
 
-![](.png)
+![](2_9_1.png)
+![](2_9_2.png)
 
 # Fractional part
 
@@ -139,7 +150,7 @@ print(dec)
 
 ## Tests
 
-![](.png)
+![](2_10.png)
 
 # First digit after decimal point
 
@@ -153,7 +164,9 @@ print(dec1)
 
 ## Tests
 
-![](.png)
+![](2_11_1.png)
+![](2_11_2.png)
+![](2_11_3.png)
 
 # Car route
 
@@ -169,7 +182,8 @@ print(days)
 
 ## Tests
 
-![](.png)
+![](2_12_1.png)
+![](2_12_2.png)
 
 #  Day of week
 
@@ -182,7 +196,9 @@ print(day)
 
 ## Tests
 
-![](.png)
+![](2_13_1.png)
+![](2_13_2.png)
+![](2_13_3.png)
 
 # Digital clock
 
@@ -197,7 +213,7 @@ print(hours, minutes)
 
 ## Tests
 
-![](.png)
+![](2_14.png)
 
 # Total cost
 a = int(input())
@@ -215,7 +231,8 @@ print(dollars, cents)
 
 ## Tests
 
-![](.png)
+![](2_15_1.png)
+![](2_15_2.png)
 
 # Century
 
@@ -231,7 +248,9 @@ print(cent)
 
 ## Tests
 
-![](.png)
+![](2_16_1.png)
+![](2_16_2.png)
+![](2_16_3.png)
 
 # Snail
 
@@ -250,7 +269,9 @@ print(days)
 
 ## Tests
 
-![](.png)
+![](2_17_1.png)
+![](2_17_2.png)
+![](2_17_3.png)
 
 # Clock face - 1
 
@@ -267,7 +288,8 @@ print(degrees)
 
 ## Tests
 
-![](.png)
+![](2_18_1.png)
+![](2_18_2.png)
 
 # Clock face - 2
 
@@ -280,4 +302,7 @@ print((h*12)%360)
 
 ## Tests
 
-![](.png)
+![](2_19_1.png)
+![](2_19_2.png)
+![](2_19_3.png)
+![](2_19_4.png)
