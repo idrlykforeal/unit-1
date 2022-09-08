@@ -23,3 +23,4 @@ else:
     exit()
  ```
 ## Tests
+![](quiz_004.png)
