@@ -233,33 +233,49 @@ print(cent)
 
 ![](.png)
 
-# 
+# Snail
 
 ## Code
 ```.py
+from math import ceil
 
+H = int(input())
+a = int(input())
+b = int(input())
+
+days= ceil((H-a)/(a-b)+1)
+
+print(days)
 ```
 
 ## Tests
 
 ![](.png)
 
-# 
+# Clock face - 1
 
 ## Code
 ```.py
+h = int(input())
+m = int(input())
+s = int(input())
 
+degrees= (h + m/60 + s/3600)*30
+
+print(degrees)
 ```
 
 ## Tests
 
 ![](.png)
 
-# 
+# Clock face - 2
 
 ## Code
 ```.py
+h=float(input())
 
+print((h*12)%360)
 ```
 
 ## Tests
