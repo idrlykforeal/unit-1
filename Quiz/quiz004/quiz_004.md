@@ -1,4 +1,4 @@
-# determine if the interger equals to the sum of all its digits.
+# Determine if the interger equals to the sum of all its digits.
 
 ## Code
 
