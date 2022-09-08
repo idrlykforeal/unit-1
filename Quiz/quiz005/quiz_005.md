@@ -2,7 +2,7 @@
 
 ## Flow Chart
 
-![](.png)
+![](quiz_005_flow.png)
 
 ## Code
 ```.py
@@ -25,5 +25,5 @@ print(sum==num)
 
 ## Tests
 
-![](.png)
+![](quiz_005.png)
 
