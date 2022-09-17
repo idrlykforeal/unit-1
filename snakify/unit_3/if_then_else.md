@@ -11,7 +11,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](1.png)
 
 
 # is odd
@@ -27,7 +27,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](2.png)
 
 # is even
 
@@ -42,7 +42,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](3.png)
 
 # ends on seven
 
@@ -57,7 +57,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](4.png)
 
 # minimum of two numbers
 
@@ -74,7 +74,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](5.png)
 
 # are both odd
 
@@ -90,7 +90,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](6.png)
 
 # at least one odd
 
@@ -106,7 +106,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](7.png)
 
 # exactly one odd
 
@@ -122,7 +122,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](8.png)
 
 # sign function
 
@@ -139,7 +139,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](9.png)
 
 # numbers in ascending order
 
@@ -157,7 +157,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](10.png)
 
 # is three digit
 
@@ -172,7 +172,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](11.png)
 
 # minimum of three numbers
 
@@ -196,7 +196,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](12.png)
 
 # equal numbers
 
@@ -216,7 +216,7 @@ print(i)
 
 ## Tests
 
-![](.png)
+![](13.png)
 
 # Rook move
 
@@ -235,7 +235,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](14.png)
 
 
 # Chess board - black square
@@ -253,7 +253,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](15.png)
 
 # Chess board - same color
 
@@ -282,7 +282,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](16.png)
 
 # Distance to closest point
 
@@ -300,7 +300,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](17.png)
 
 # Digits in ascending order
 
@@ -320,7 +320,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](18.png)
 
 # Four-digit palindrome
 
@@ -336,7 +336,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](19.png)
 
 # King move
 
@@ -356,7 +356,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](20.png)
 
 # Bishop moves
 
@@ -375,7 +375,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](21.png)
 
 # Queen move
 
@@ -394,7 +394,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](22.png)
 
 # Index of outlier
 
@@ -414,7 +414,7 @@ if c==b:
 
 ## Tests
 
-![](.png)
+![](23.png)
 
 # Knight move
 
@@ -433,7 +433,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](24.png)
 
 # Chocolate bar
 
@@ -451,7 +451,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](25.png)
 
 # Leap year
 
@@ -469,7 +469,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](26.png)
 
 # Days in month
 
@@ -487,7 +487,7 @@ if month in [4,6,9,11]:
 
 ## Tests
 
-![](.png)
+![](27.png)
 
 # Next day
 
@@ -510,7 +510,7 @@ print(month, day)
 
 ## Tests
 
-![](.png)
+![](28.png)
 
 # Linear equation
 
@@ -529,7 +529,7 @@ else:
 
 ## Tests
 
-![](.png)
+![](29.png)
 
 # Vertices of rectangle
 
@@ -561,7 +561,7 @@ print(x,y)
 
 ## Tests
 
-![](.png)
+![](30.png)
 
 # Sort three numbers
 
@@ -585,7 +585,7 @@ print(a,b,c)
 
 ## Tests
 
-![](.png)
+![](31.png)
 
 # White pawn move
 
@@ -611,4 +611,4 @@ else:
 
 ## Tests
 
-![](.png)
+![](32.png)
