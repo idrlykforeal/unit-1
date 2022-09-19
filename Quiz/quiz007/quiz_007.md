@@ -25,6 +25,10 @@ for element in password:
 
 ```
 
+# Flow chart
+
+![IMG_0400](https://user-images.githubusercontent.com/100017195/191042882-bd912c71-0106-4198-9701-89e181bac97e.jpeg)
+
 # Tests
 
 ![](quiz_007.png)
