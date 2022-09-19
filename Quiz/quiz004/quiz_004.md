@@ -22,5 +22,11 @@ else:
     print("you ran out of chances to enter an integer")
     exit()
  ```
+ 
+## Flow chart
+![IMG_0396](https://user-images.githubusercontent.com/100017195/191035100-88df424a-0ae3-4c64-88ec-0d222d789456.jpeg)
+![IMG_0395](https://user-images.githubusercontent.com/100017195/191035113-46ff52c5-6f33-4658-9099-d809ed845ff7.jpeg)
+
+ 
 ## Tests
 ![](quiz_004.png)
