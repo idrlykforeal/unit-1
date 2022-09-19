@@ -1,6 +1,7 @@
 # solution to quiz 001
 
-![](quiz001.jpeg)
+![IMG_8021](https://user-images.githubusercontent.com/100017195/191029088-6751c511-893f-43c4-b889-b0d849372529.jpeg)
+
 
 **Fig 1** this is the solution to quiz 001
 
