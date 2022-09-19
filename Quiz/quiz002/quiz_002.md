@@ -29,7 +29,10 @@ else:
     print('false')
 ```
 
-## Flow Diagram
+## Flow Diagram![Untitled Notebook (1)](https://user-images.githubusercontent.com/100017195/191027205-a65b196c-fcb4-4925-936c-d4e01726310c.jpeg)
+
+![IMG_0391](https://user-images.githubusercontent.com/100017195/191027378-cc0ddc0d-010d-4a66-9b57-64d0534b28e0.jpeg)
+
 
 ## Results 
 ![](quiz_002.png)
