@@ -17,6 +17,12 @@ for i in in_protein.upper():
 
 print(out_protein)
 ```
+
+## Flow chart
+
+![IMG_0392](https://user-images.githubusercontent.com/100017195/191031564-f921bdfe-76a2-45ca-9794-f22131f0c29c.jpeg)
+
+
 ## result
 
 ![](quiz003.png)
