@@ -17,5 +17,4 @@ for floor in range(1,11,1):
 
 
 ## Tests:
-
-![](Screen Shot 2022-09-19 at 3.53.11 PM.png)
+<img width="820" alt="quiz_008" src="https://user-images.githubusercontent.com/100017195/191028896-8c4b9ee8-952c-4483-97bc-5727b3029cec.png">
