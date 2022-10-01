@@ -19,25 +19,25 @@ Design statement:
 I will to design and make a digital ledger for a client who is Ms. Sato . The ——– will about ———— and is constructed using the software Python. It will take  4 weeks to make and will be evaluated according to the criteria A and B.
 
 ** add a description of your coin and citation **
-| Group 1   |              |   | Group  2  |           |
-|-----------|--------------|---|-----------|-----------|
-| Developer | Digital Coin |   | Developer | Coin      |
-| Alex      | Bitcoin      |   | Alek      | Solana    |
-| Bernard   | Ethereum     |   | Mai       | Dogecoin  |
-| Yutaro    | Dogecoin     |   | Daniela   | BInance   |
-| Verlon    | Apecoin      |   | Kris      | Bitcoin   |
-| Oswell    | Tether       |   | Paula     | Lumens    |
-| Thumula   | Tron         |   | ZAven     | Ethereum  |
-| Ainee     | Mana         |   | Jonathan  | Maker     |
-| Lison     | Solana       |   | Kai       | Avalanche |
-| Sabu      | Binance      |   | Daiichiro | Flow      |
-| Emmy      | Polkadot     |   | Masamu    | Cardano   |
-| Maria     | Cardano      |   | Yasmina   | Zcash     |
-| Zelan     | Cosmos       |   | Jana      | LiteCoin  |
-| Manahil   | BinanceUSD   |   | Lyn       | Iota      |
-| Krish     | UsdCoin      |   | Meisa     | Polkadot  |
-|           |              |   | Mayte     | Cosmos    |
-|           |              |   | Pop       | Ripple    |
+| Group 1   |              | Group  2  |           |
+|-----------|--------------|-----------|-----------|
+| Developer | Digital Coin | Developer | Coin      |
+| Alex      | Bitcoin      | Alek      | Solana    |
+| Bernard   | Ethereum     | Mai       | Dogecoin  |
+| Yutaro    | Dogecoin     | Daniela   | BInance   |
+| Verlon    | Apecoin      | Kris      | Bitcoin   |
+| Oswell    | Tether       | Paula     | Lumens    |
+| Thumula   | Tron         | ZAven     | Ethereum  |
+| Ainee     | Mana         | Jonathan  | Maker     |
+| Lison     | Solana       | Kai       | Avalanche |
+| Sabu      | Binance      | Daiichiro | Flow      |
+| Emmy      | Polkadot     | Masamu    | Cardano   |
+| Maria     | Cardano      | Yasmina   | Zcash     |
+| Zelan     | Cosmos       | Jana      | LiteCoin  |
+| Manahil   | BinanceUSD   | Lyn       | Iota      |
+| Krish     | UsdCoin      | Meisa     | Polkadot  |
+|           |              | Mayte     | Cosmos    |
+|           |              | Pop       | Ripple    |
 Justify the tools/structure of your solution
 
 ## Success Criteria
