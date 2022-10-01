@@ -38,6 +38,8 @@ I will to design and make a digital ledger for a client who is Ms. Sato . The â€
 | Krish     | UsdCoin      | Meisa     | Polkadot  |
 |           |              | Mayte     | Cosmos    |
 |           |              | Pop       | Ripple    |
+
+
 Justify the tools/structure of your solution
 
 ## Success Criteria
