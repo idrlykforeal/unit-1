@@ -17,7 +17,7 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 
 Design statement:
 
-Design statement: I will to design and make a digital ledger for a client who is Mr Sato. The digital ledger will be about storing transactions regarding cryptocurrency and is constructed using the software Python It will take until Project Week to make and will be evaluated according to the criterias below.
+I will to design and make a digital ledger for a client who is Mr Sato. The digital ledger will be about storing transactions regarding cryptocurrency and is constructed using the software Python It will take until Project Week to make and will be evaluated according to the criterias below.
 
 
 | Group 1   |              | Group  2  |           |
@@ -28,7 +28,7 @@ Design statement: I will to design and make a digital ledger for a client who is
 | Yutaro    | Dogecoin     | Daniela   | BInance   |
 | Verlon    | Apecoin      | Kris      | Bitcoin   |
 | Oswell    | Tether       | Paula     | Lumens    |
-| Thumula   | Tron         | ZAven     | Ethereum  |
+| Thumula   | Tron         | Zaven     | Ethereum  |
 | Ainee     | Mana         | Jonathan  | Maker     |
 | Lison     | Solana       | Kai       | Avalanche |
 | Sabu      | Binance      | Daiichiro | Flow      |
@@ -43,7 +43,7 @@ Design statement: I will to design and make a digital ledger for a client who is
 
 Justify the tools/structure of your solution:
 
-I will be using Python for this solution becasue it provides easy data scraping functions and various libraries which could help in providing useful statistics to Mr Sato
+I will be using Python for this solution becasue it provides easy data scraping functions and various libraries which could help in providing useful statistic managements to Mr Sato.
 
 I will be choosing Bitcoin as my cryptocurrency for this solution:
 
