@@ -16,7 +16,9 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 ## Proposed Solution
 
 Design statement:
-I will to design and make a digital ledger for a client who is Ms. Sato . The ——– will about ———— and is constructed using the software Python. It will take  4 weeks to make and will be evaluated according to the criteria A and B.
+
+Design statement: I will to design and make a digital ledger for a client who is Mr Sato. The digital ledger will be about storing transactions regarding cryptocurrency and is constructed using the software Python It will take until Project Week to make and will be evaluated according to the criterias below.
+
 
 ** add a description of your coin and citation **
 | Group 1   |              | Group  2  |           |
