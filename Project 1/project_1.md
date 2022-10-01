@@ -20,7 +20,6 @@ Design statement:
 Design statement: I will to design and make a digital ledger for a client who is Mr Sato. The digital ledger will be about storing transactions regarding cryptocurrency and is constructed using the software Python It will take until Project Week to make and will be evaluated according to the criterias below.
 
 
-** add a description of your coin and citation **
 | Group 1   |              | Group  2  |           |
 |-----------|--------------|-----------|-----------|
 | Developer | Digital Coin | Developer | Coin      |
@@ -42,7 +41,17 @@ Design statement: I will to design and make a digital ledger for a client who is
 |           |              | Pop       | Ripple    |
 
 
-Justify the tools/structure of your solution
+Justify the tools/structure of your solution:
+
+I will be using Python for this solution becasue it provides easy data scraping functions and various libraries which could help in providing useful statistics to Mr Sato
+
+I will be choosing Bitcoin as my cryptocurrency for this solution:
+
+Bitcoin uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by the network. Bitcoin is open-source; its design is public, nobody owns or controls Bitcoin and everyone can take part. Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous payment system.
+
+("Bitcoin", https://bitcoin.org/en/)
+
+
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
