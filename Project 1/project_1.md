@@ -41,9 +41,13 @@ I will to design and make a digital ledger for a client who is Mr Sato. The digi
 |           |              | Pop       | Ripple    |
 
 
-Justify the tools/structure of your solution:
+Justify the tools of my solution:
 
-I will be using Python for this solution becasue it provides easy data scraping functions and various libraries which could help in providing useful statistic managements to Mr Sato.
+I will be using Python for this solution becasue it provides easy data scraping functions and various libraries which could help in providing useful statistic managements to Mr Sato. In addition, python, compared to other older languages, offers programmers the advantage of using fewer lines of code to accomplish tasks, which provides increased simplicity and readability both for programmers and program-readers.
+
+Justify the structure of my solution:
+
+The digital ledger I create is going to be a python project in Pycharm, with a main python file calling different functions pre-written in the library python file and reading, appending, and writing database files. This makes the program more managable as different functions are separately written so the modification of certain files will be more simple. Also, this makes the main python file shorter, which means the structure is going to be more clear and readable.
 
 I will be choosing Bitcoin as my cryptocurrency for this solution:
 
