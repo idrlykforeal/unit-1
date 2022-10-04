@@ -77,3 +77,67 @@ Bitcoin uses peer-to-peer technology to operate with no central authority or ban
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Create success criteria                                       | To meet with the client and get approval on the criterias                                                       | 10min         | Sep 23                 | A         |
 
+# Criteria C: Development
+
+## Register and login system
+
+My client requires a system to protect the private data. I came up with the solution of using a register and login system that records and verifies the username and password using if conditions and the open command to work with a csv file. Also before loggin in, I also created a function asking the user would like to register first if they haven't done so, or they would like to change the username and password. Here are the 3 functions in Python code:
+
+```.py
+def register_or_login()->int:
+    '''
+    this function returns the option of action from the user whether they would like to register or login with password
+    :return: int
+    '''
+    welcome_msg = "Welcome to your Bitcoin Wallet!".center(len, "=")
+    intro='''
+    Bitcoin uses peer-to-peer technology to operate with no central authority or banks; 
+    managing transactions and the issuing of bitcoins is carried out collectively by the network. 
+    Bitcoin is open-source; its design is public, nobody owns or controls Bitcoin and everyone can take part. 
+    Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous payment system.
+'''
+    prompt_msg = "please enter an option [1-2]: "
+    content = "OPTIONS"
+    menu = '''
+    1. Register/Change Password
+    2. Login
+    '''
+
+    print(cs_yellow, welcome_msg, end_code)
+    print(intro)
+    print(cs_yellow,content.center(len, "-"), end_code)
+    print(menu)
+    option = validate_int_input(prompt_msg)
+    # validate option
+    while option < 1 or option > 2:
+        option = validate_int_input(f"{cs_red}invalid option, {prompt_msg}{end_code}")
+
+    return option
+
+def register(uname:str, password:str):
+    '''
+    This function welcomes the user and saves a user, password in the file user_psw.csv
+    :param uname: username
+    :param password: password
+    :return: nothing
+    '''
+    file=open("user_psw.csv", "w")
+    file.write(f"{uname},{password} \n")
+    success_msg="Successfully registered, please move on to log in"
+    print(cs_green,success_msg.center(len, "-"), end_code)
+
+def login(username:str, psw:str)->bool:
+    '''
+    This function verifies the input of the username and password and determines whether login is successful
+    :param username: str
+    :param psw: str
+    :return: bool
+    '''
+    with open("user_psw.csv", "r") as file:
+        info= file.read().strip()
+        infos=info.split(",")
+        if username==infos[0] and psw==infos[1]:
+            return True
+        else:
+            return False
+```
