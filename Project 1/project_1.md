@@ -141,3 +141,33 @@ def login(username:str, psw:str)->bool:
         else:
             return False
 ```
+
+## Getting options from the users
+Since this is required by the client that it is a text-based program, getting the option from the user is needed. I decided to write a function that displays and gets the option from the user. Below is the code:
+
+```.py
+def get_option():
+    '''
+    this function returns the option of action from the user
+    :return: int
+    '''
+    loggedin = "You are successfully logged in!".center(len, "-")
+    prompt_msg = "please enter an option [1-4]: "
+    content = "OPTIONS"
+    menu = '''
+    1. Withdraw
+    2. Deposit
+    3. View recent 10 transactions
+    4. View your current balance
+    '''
+    print(cs_green, loggedin.center(len, "-"), end_code)
+    print(cs_yellow, content.center(len, "-") ,end_code)
+    print(menu)
+    option = validate_int_input(prompt_msg)
+    # validate option
+    while option < 1 or option > 4:
+        option = validate_int_input(f"{cs_red}invalid option, {prompt_msg}{end_code}")
+
+    return option
+```
+
