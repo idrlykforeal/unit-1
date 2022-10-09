@@ -103,6 +103,10 @@ Bitcoin uses peer-to-peer technology to operate with no central authority or ban
 
 *flow diagram for exit*
 
+## Test Plans
+
+
+
 ## Record of Tasks
 
 | Task No | Planned Action             | Planned Outcome                                                                          | Time estimate | Target completion date | Criterion |
