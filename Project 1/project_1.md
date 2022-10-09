@@ -171,3 +171,89 @@ def get_option():
     return option
 ```
 
+## Transaction record
+
+My client requires a system to record details of transactions, so I created a function to append each transactions to database file transactions.csv. Here is the code:
+
+```.py
+def transaction(action:str , amount:float, year:int, month:int, day:int , remarks:str):
+    '''
+    this function helps record the transaction information into the transactions.csv
+    :param action: str
+    :param amount: float
+    :param year: int
+    :param month: int
+    :param day: int
+    :param remarks: str
+    :return: nothing
+    '''
+    file = open("transactions.csv", "a")
+    file.write(f"{action},{amount},{year},{month},{day},{remarks} \n")
+```
+
+## Print historical transactions
+
+My client requires the ledger to be able to print the details of historical transactions. I created a function that reads from the database file transaction.csv and prints the details of the transaction in a table form. Here is the code:
+
+```.py
+def print_transactions():
+    '''
+    this function reads transactions.csv and prints the transaction history
+    :return: none
+    '''
+    print(cs_blue,"\nTRANSACTION HISTORY".center(106, "*"),end_code,"\n")
+    info=[]
+    with open("transactions.csv","r") as file:
+        raw_transactions=file.readlines()
+    for line in raw_transactions:
+        line=line.strip()
+        values= line.split(",")
+        info.append(values)
+    print("Action".ljust(15),end=" | ")
+    print("Amount".ljust(15), end=" | ")
+    print("Year".ljust(15), end=" | ")
+    print("Month".ljust(15), end=" | ")
+    print("Date".ljust(15), end=" | ")
+    print("Remarks".ljust(15), end=" | \n")
+    print("".ljust(107 ,"-"))
+    for i in info:
+        for a in i:
+            print(a.ljust(15), end=" | ")
+        print()
+```
+
+## Print current balance
+
+My client requires to view the current balance. I created a function that reads from the database file transaction.csv and calculates the current balance and displays the current balance. Here's the code:
+
+```.py
+def print_balance():
+    '''
+    this function reads transactions.csv and prints the current balance
+    :return:
+    '''
+    balance=0
+    info = []
+    with open("transactions.csv", "r") as file:
+        raw_transactions = file.readlines()
+    for line in raw_transactions:
+        line = line.strip()
+        values = line.split(",")
+        info.append(values)
+    for i in info:
+        if i[0]=="Withdraw":
+            balance-=int(i[1])
+        if i[0]=="Deposit":
+            balance+=int(i[1])
+    print(cs_blue,f"\nYour current balance is {balance}",end_code)
+```
+
+## Exit
+I created an option for users to exit the program. The exit function also prints a exit message to the user saying goodbye. Here's the code:
+
+```.py
+def exit():
+    message='''Thank you for using the digital bitcoin ledger, see you next time!'''
+    print(cs_blue, message.center(len,"-"), end_code)
+```
+
