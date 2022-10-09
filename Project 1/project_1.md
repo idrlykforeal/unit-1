@@ -120,6 +120,10 @@ Bitcoin uses peer-to-peer technology to operate with no central authority or ban
 
 # Criteria C: Development
 
+## Video of using the program:
+
+[Video of the Program](https://drive.google.com/file/d/1Z8ZD_bIDL6GB-Eoh_l4j5S7aJZF-zspQ/view?usp=sharing)
+
 ## Register and login system
 
 My client requires a system to protect the private data. I came up with the solution of using a register and login system that records and verifies the username and password using if conditions and the open command to work with a csv file. Also before loggin in, I also created a function asking the user would like to register first if they haven't done so, or they would like to change the username and password. Here are the 3 functions in Python code:
