@@ -104,9 +104,19 @@ Bitcoin uses peer-to-peer technology to operate with no central authority or ban
 *flow diagram for exit*
 
 ## Record of Tasks
-| Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
-|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Create success criteria                                       | To meet with the client and get approval on the criterias                                                       | 10min         | Sep 23                 | A         |
+
+| Task No | Planned Action             | Planned Outcome                                                                          | Time estimate | Target completion date | Criterion |
+|---------|----------------------------|------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+| 1       | Create system diagram      | To have a clear idea of the hardware and software requirements for the proposed solution | 10min         | Sep 27                 | B         |
+| 2       | Interview with the Client  | To discuss client's needs and define success criteria                                    | 10min         | Sep 27                 | A         |
+| 3       | Finishing criteria A       | Reasearching information about bitcoin and fill in the justification program             | 10min         | Sep 29                 | A         |
+| 4       | Create flow diagrams       | To have a clear idea of how the functions' structure will be like and how they will be organized in the main python file | 40 min         | Sep 30                 | B         |
+| 5       | Code the Menu              | To have menu items and title written on the screen                                       | 20min         | Oct 1                 | C         |
+| 6       | Code the library functions | Functions that have specific aims such as log in, register, record transactions, etc     | 7hrs          | Oct 03-06           | C         |
+| 7       | Code main python file      | Code the main python file that calls all the functions, linking them together logically  | 4hrs          | Oct 07                 | C         |
+| 7       | Test program (functional & non-functional    | Do overall test of the program, find out if errors/ non-user-friendly aespects  | 1hr          | Oct 08                 | C         |
+| 8       | Final fix                  | Fix errors/ non-user-friendly aspects found during program tests                         | 1hr          | Oct 09                 | C         |
+
 
 # Criteria C: Development
 
