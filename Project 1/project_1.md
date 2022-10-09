@@ -68,14 +68,29 @@ Bitcoin uses peer-to-peer technology to operate with no central authority or ban
 # Criteria B: Design
 
 ## System Diagram
-
+![IMG_0414](https://user-images.githubusercontent.com/100017195/194740831-d892a600-5650-4218-819d-fd88b317490b.jpg)
+*system diagram for the digital ledger*
 ## Flow Diagrams
 <img width="367" alt="register_or_login" src="https://user-images.githubusercontent.com/100017195/194737122-b71c9786-32c1-4428-896e-824f5909b3f8.png">
+
+*flow diagram for register or login function*
+
 <img width="250" alt="register" src="https://user-images.githubusercontent.com/100017195/194737137-79030fe8-989c-4eaa-b12c-64241ba0f352.png">
+
+*flow diagram for register function*
+
 <img width="455" alt="login" src="https://user-images.githubusercontent.com/100017195/194737139-97df1346-c904-43fd-87dd-da32b5a6762f.png">
+
+*flow diagram for login function*
+
 <img width="303" alt="getoptions" src="https://user-images.githubusercontent.com/100017195/194737143-47b303f9-8a1c-4826-bf76-a10816a128fd.png">
+
+*flow diagram for get options function*
+
 <img width="469" alt="transaction" src="https://user-images.githubusercontent.com/100017195/194737145-11a48104-bd63-44a9-939b-cdeaabc828e8.png">
 
+
+*flow diagram for transaction record function*
 
 
 ## Record of Tasks
