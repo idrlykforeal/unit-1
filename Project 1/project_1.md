@@ -89,9 +89,19 @@ Bitcoin uses peer-to-peer technology to operate with no central authority or ban
 
 <img width="469" alt="transaction" src="https://user-images.githubusercontent.com/100017195/194737145-11a48104-bd63-44a9-939b-cdeaabc828e8.png">
 
-
 *flow diagram for transaction record function*
 
+<img width="192" alt="history" src="https://user-images.githubusercontent.com/100017195/194741868-cda72f20-09d9-4cbf-8df0-1c65ad051e7e.png">
+
+*flow diagram for printing transaction history*
+
+<img width="276" alt="balance" src="https://user-images.githubusercontent.com/100017195/194741878-a4043a24-e21e-464f-942d-77f884f1fa7d.png">
+
+*flow diagram for printing current balance*
+
+<img width="303" alt="exit" src="https://user-images.githubusercontent.com/100017195/194741893-f8a2cd6a-295b-439c-926f-18f7bb226b72.png">
+
+*flow diagram for exit*
 
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
