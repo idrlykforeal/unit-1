@@ -25,6 +25,8 @@ for i in open_doors(n):
         print("closed", end=" ")
 print(f"\nthere are {count} doors open in total when there are {n} doors and students")
 ```
+# Flow diagram
+![Comp Science](https://user-images.githubusercontent.com/100017195/197784800-7b8c07e5-3ed2-4dc9-b810-42477cecad3a.jpeg)
 
 # Test results
 
