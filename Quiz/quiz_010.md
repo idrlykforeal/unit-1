@@ -25,6 +25,8 @@ def power(n):
 
 print("\n".join(power(n)))
 ```
+# Flow diagram
+![10](https://user-images.githubusercontent.com/100017195/197777511-a5539c7f-62e3-41f0-86ef-f2e6915bedec.jpeg)
 
 # Test
 ![Quiz010_Evidence](https://user-images.githubusercontent.com/100017195/197688481-cc0dd639-48b5-4113-9b64-c8b62b585e1b.jpg)
