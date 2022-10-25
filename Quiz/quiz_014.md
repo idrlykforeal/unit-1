@@ -19,6 +19,8 @@ out=mysteryTwo(10,4)
 print(out)
 
 ```
+# Flow diagram
+![Comp Science](https://user-images.githubusercontent.com/100017195/197782863-aaedffc9-d389-49a6-90d7-da5aff1c712a.jpeg)
 
 # Test results:
 
