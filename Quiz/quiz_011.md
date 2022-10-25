@@ -31,6 +31,8 @@ for i in bestMonth(month):
     if count%5==0:
         print()
 ```
+# Flow diagram
+![Comp Science](https://user-images.githubusercontent.com/100017195/197780731-eb7f3de0-46c2-4d9d-8a70-153198ce6811.jpeg)
 
 # Test
 
